@@ -1,0 +1,16 @@
+name: "Terraform Security Scan"
+description: "Run security scanning for Terraform (tfsec/trivy) inside a container."
+author: "gusvega"
+branding:
+  icon: "shield"
+  color: "orange"
+
+inputs:
+  workdir:
+    description: "Working directory"
+    required: false
+    default: "."
+
+runs:
+  using: "docker"
+  image: "Dockerfile"

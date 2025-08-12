@@ -1,0 +1,11 @@
+{
+  "name": "tf-security-scan",
+  "version": "0.1.0",
+  "description": "GitHub Action to run tfsec and trivy",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/exec": "^1.1.1"
+  }
+}
